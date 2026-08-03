@@ -1,0 +1,73 @@
+#Start Now get perfect Later
+print("Start Now get perfect Later")
+print("Start small. Ship something.\n")
+
+ourfamily = {
+    "Father" : { 
+        "Firstname" : "Simon",
+        "Profile" : "Restaurant-Owner",
+        "Age" : "Not enough info",
+        "Email" : "Not enough info"
+ },
+
+"Mother" : {
+    "Firstname": "Sheila",
+    "Lastname": "Marindany",
+    "Age": 38,
+    "Profile": "Restaurant-Owner",
+    "Email": "sheilamarindanyc@gmail.com"
+}    
+,
+
+"First-born" : {
+    "Firstname": "Tabitha",
+    "Secondname": "Chepngetich",
+    "Age": "21",
+    "Profile": "Doctor",
+    "Email": "tabithachepngetich77@gmail.com"
+},
+
+"Second-born" : {
+    "Firstname": "Elkanah",
+    "Lastname": "Langat",
+    "Age": "19",
+    "Profile": "Entrepreneur",
+    "Email": "elkanahlangat75@gmail.com"
+},
+
+"Third-born" : {
+    "Firstname": "Amos",
+    "Lastname": "Langat",
+    "Age": 16,
+    "Profile": "Engineer",
+    "Email": "amoskipkoech737@gmail.com"
+},
+
+"Fourth-born" : {
+    "Firstname": "Abigael",
+    "Secondname": "Chepkirui",
+    "Age": 10,
+    "Profile": "Dietician",
+    "Email": "abigaelchepkirui@gmail.com"
+},
+
+"Last-born" : {
+    "Firstname": "Brian",
+    "Lastname": "Langat",
+    "Age": 6,
+    "Profile": "Pilot",
+    "Email": "briankibet75@gmail.com"
+
+}
+}
+for position, family in ourfamily.items():
+    print("\n", position)
+    
+    for information, value in family.items():
+        print(information, ":", value)
+    
+    
+  
+        
+        
+        
